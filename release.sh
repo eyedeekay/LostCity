@@ -16,13 +16,13 @@ github-release edit --user "${GITHUB_USER}" \
     --description "${GITHUB_DESCRIPTION}" \
     --tag "${GITHUB_TAG}"; true
 echo "Relase ${GITHUB_TAG} setup"
-jvmsum=$(sha256sum "lostcity.tar.gz")
+jvmsum=$(sha256sum "lostcity-portable-${GITHUB_TAG}.tar.gz")
 github-release upload --user "${GITHUB_USER}" \
     --repo "${GITHUB_REPO}" \
     --tag "${GITHUB_TAG}" \
     --label "Unciv-Over-I2P(LostCity) launcher as a Jpackage, does not require a JVM. ${jvmsum}" \
-    --name "lostcity.tar.gz" \
-    --file "lostcity.tar.gz" \
+    --name "lostcity-portable-${GITHUB_TAG}.tar.gz" \
+    --file "lostcity-portable-${GITHUB_TAG}.tar.gz" \
     --replace
 echo "Uploaded jpackage zip"
 debsum=$(sha256sum "lostcity_${GITHUB_TAG}_amd64.deb")
@@ -43,5 +43,5 @@ github-release upload --user "${GITHUB_USER}" \
     --file "lostcity-${GITHUB_TAG}-1.x86_64.rpm" \
     --replace
 echo "Uploaded fedora package"
-git pull github --tags
+git pull --tags
 git push --all
