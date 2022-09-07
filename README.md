@@ -16,3 +16,24 @@ any way you can.
 
 There is virtually no work involved on my part and I deserve absolutely no credit.
 But it is kind of fun. :)
+
+Building Packages
+-----------------
+
+To build the packages, use a PC running the OS you wish to package for. Cross-compilation
+is not supported. Fedora package builds require Docker, and MSI package builds require
+wixl. All builds require Java and jpackage.
+
+Windows
+-------
+
+- MSI: `./windows.sh` untested, probably works
+- EXE: `./windows-exe.sh` untested, probably works
+- Portable ZIP: `./windows-portable.sh` - untested, probably works
+
+Linux
+-----
+
+- Debian: `./debian.sh` - tested, works
+- Fedora: `./fedora.sh` - untested, probably works though
+- Portable TGZ: `./linux-portable.sh` - tested, works

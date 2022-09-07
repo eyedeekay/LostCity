@@ -89,6 +89,75 @@
       There is virtually no work involved on my part and I deserve absolutely no credit.
       But it is kind of fun. :)
     </p>
+    <h2>
+      <a href="#building-packages" rel="nofollow">
+        <span></span>
+      </a>
+      Building Packages
+    </h2>
+    <p>
+      To build the packages, use a PC running the OS you wish to package for. Cross-compilation
+      is not supported. Fedora package builds require Docker, and MSI package builds require
+      wixl. All builds require Java and jpackage.
+    </p>
+    <h2>
+      <a href="#windows" rel="nofollow">
+        <span></span>
+      </a>
+      Windows
+    </h2>
+    <ul>
+      <li>
+        MSI:
+        <code>
+          ./windows.sh
+        </code>
+        untested, probably works
+      </li>
+      <li>
+        EXE:
+        <code>
+          ./windows-exe.sh
+        </code>
+        untested, probably works
+      </li>
+      <li>
+        Portable ZIP:
+        <code>
+          ./windows-portable.sh
+        </code>
+        - untested, probably works
+      </li>
+    </ul>
+    <h2>
+      <a href="#linux" rel="nofollow">
+        <span></span>
+      </a>
+      Linux
+    </h2>
+    <ul>
+      <li>
+        Debian:
+        <code>
+          ./debian.sh
+        </code>
+        - tested, works
+      </li>
+      <li>
+        Fedora:
+        <code>
+          ./fedora.sh
+        </code>
+        - untested, probably works though
+      </li>
+      <li>
+        Portable TGZ:
+        <code>
+          ./linux-portable.sh
+        </code>
+        - tested, works
+      </li>
+    </ul>
     <div id="sourcecode">
       <span id="sourcehead">
         <strong>
