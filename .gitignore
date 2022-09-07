@@ -5,3 +5,5 @@ src/build/Unciv.jar
 *.exe
 *.zip
 *.tar.gz
+/lostcity-portable/
+*.json

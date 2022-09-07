@@ -4,9 +4,8 @@
 jpackage --verbose \
     --type deb \
     --linux-deb-maintainer hankhill19580@gmail.com \
-    --linux-menu-group "StrategyGame;Simulation" \
+    --linux-menu-group "BoardGame;Simulation;StrategyGame" \
     --linux-app-category "Game" \
-    --linux-package-deps "" \
     --linux-shortcut \
     --license-file LICENSE.md \
     --name lostcity \

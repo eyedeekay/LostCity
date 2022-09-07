@@ -15,7 +15,7 @@ yum -y install temurin-18-jdk
 
 jpackage --verbose \
     --type rpm \
-    --linux-menu-group "StrategyGame;Simulation" \
+    --linux-menu-group "BoardGame;Simulation;StrategyGame" \
     --linux-app-category "Game" \
     --linux-shortcut \
     --license-file LICENSE.md \
