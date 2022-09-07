@@ -19,7 +19,6 @@ github-release edit --user "${GITHUB_USER}" \
     --description "${GITHUB_DESCRIPTION}" \
     --tag "${GITHUB_TAG}"; true
 echo "Relase ${GITHUB_TAG} setup"
-echo "Uploaded freestanding zip"
 jvmsum=$(sha256sum "lostcity.tar.gz")
 github-release upload --user "${GITHUB_USER}" \
     --repo "${GITHUB_REPO}" \

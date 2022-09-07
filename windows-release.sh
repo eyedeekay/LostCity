@@ -3,7 +3,7 @@ git pull --all
 . ../i2p.firefox/config.sh
 . ./config.sh
 . "${HOME}/github-release-config.sh"
-ant distclean jar
+./clean.sh
 ./windows.sh
 ./windows-exe.sh
 ./windows-portable.sh
