@@ -23,7 +23,7 @@ jarsum=$(sha256sum "src/build/Unciv.jar")
 github-release upload --user "${GITHUB_USER}" \
     --repo "${GITHUB_REPO}" \
     --tag "${GITHUB_TAG}" \
-    --label "I2P Browser launcher as a .jar. Useful as a library or for advanced users. ${jarsum}" \
+    --label "Unciv-Over-I2P(LostCity) launcher as a .jar. Useful as a library or for advanced users. ${jarsum}" \
     --name "Unciv.jar" \
     --file "src/build/Unciv.jar" \
     --replace
@@ -32,7 +32,7 @@ zipsum=$(sha256sum "lostcity.zip")
 github-release upload --user "${GITHUB_USER}" \
     --repo "${GITHUB_REPO}" \
     --tag "${GITHUB_TAG}" \
-    --label "I2P Browser launcher as a .jar and a set of semi-univeral launcher scripts. ${zipsum}" \
+    --label "Unciv-Over-I2P(LostCity) launcher as a .jar and a set of semi-univeral launcher scripts. ${zipsum}" \
     --name "lostcity.zip" \
     --file "lostcity.zip" \
     --replace
@@ -41,7 +41,7 @@ jvmsum=$(sha256sum "lostcity.zip")
 github-release upload --user "${GITHUB_USER}" \
     --repo "${GITHUB_REPO}" \
     --tag "${GITHUB_TAG}" \
-    --label "I2P Browser launcher as a Jpackage, does not require a JVM. ${jvmsum}" \
+    --label "Unciv-Over-I2P(LostCity) launcher as a Jpackage, does not require a JVM. ${jvmsum}" \
     --name "lostcity.zip" \
     --file "lostcity.zip" \
     --replace
@@ -50,7 +50,7 @@ debsum=$(sha256sum "lostcity_${GITHUB_TAG}_amd64.deb")
 github-release upload --user "${GITHUB_USER}" \
     --repo "${GITHUB_REPO}" \
     --tag "${GITHUB_TAG}" \
-    --label "I2P Browser launcher as a Jpackage inside of a Debian package. ${debsum}" \
+    --label "Unciv-Over-I2P(LostCity) launcher as a Jpackage inside of a Debian package. ${debsum}" \
     --name "lostcity_${GITHUB_TAG}_.deb" \
     --file "lostcity_${GITHUB_TAG}_amd64.deb" \
     --replace
@@ -59,7 +59,7 @@ rpmsum=$(sha256sum lostcity-${GITHUB_TAG}-1.x86_64.rpm)
 github-release upload --user "${GITHUB_USER}" \
     --repo "${GITHUB_REPO}" \
     --tag "${GITHUB_TAG}" \
-    --label "I2P Browser launcher as a Jpackage inside of a Fedora package. ${rpmsum}" \
+    --label "Unciv-Over-I2P(LostCity) launcher as a Jpackage inside of a Fedora package. ${rpmsum}" \
     --name "lostcity-${GITHUB_TAG}_.rpm" \
     --file "lostcity-${GITHUB_TAG}-1.x86_64.rpm" \
     --replace

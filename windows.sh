@@ -6,7 +6,7 @@ jpackage \
     --win-dir-chooser \
     --win-help-url "https://geti2p.net" \
     --win-menu \
-    --win-menu-group "I2P Browser Configurer" \
+    --win-menu-group "Unciv-Over-I2P(LostCity) Configurer" \
     --win-shortcut \
     --win-shortcut-prompt \
     --win-per-user-install \

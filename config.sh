@@ -2,7 +2,7 @@
 export GITHUB_USER=eyedeekay
 export GITHUB_REPO=LostCity
 export GITHUB_NAME="Package UnCiv with I2P-Enabling Defaults"
-export GITHUB_DESCRIPTION=$(cat CHANGES.md)
+export GITHUB_DESCRIPTION=$(cat DESCRIPTION.md CHANGES.md)
 export GITHUB_TAG=4.2.7
 
 mkdir -p src/build
