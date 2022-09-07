@@ -9,3 +9,5 @@ the Mozilla Public License that is also used by Unciv.
 There is also a self-configuring Unciv multiplayer server which uses I2P, called
 [soap](https://github.com/eyedeekay/soap)(because hygiene is necessary for civilization).
 You can use it to host multiplayer servers, then connect LostCity clients to them.
+
+Version numbers track the Unciv version they're based on.
