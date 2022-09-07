@@ -4,7 +4,7 @@ jpackage \
     --verbose \
     --type exe \
     --win-dir-chooser \
-    --win-help-url "https://geti2p.net" \
+    --win-help-url "https://github.com/eyedeekay/LostCity" \
     --win-menu \
     --win-menu-group "Unciv-Over-I2P(LostCity) Configurer" \
     --win-shortcut \
