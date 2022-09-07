@@ -4,8 +4,8 @@
 jpackage --verbose \
     --type deb \
     --linux-deb-maintainer hankhill19580@gmail.com \
-    --linux-menu-group "Network;WebBrowser;P2P" \
-    --linux-app-category "Games" \
+    --linux-menu-group "StrategyGame;Simulation" \
+    --linux-app-category "Game" \
     --linux-package-deps "" \
     --linux-shortcut \
     --license-file LICENSE.md \
