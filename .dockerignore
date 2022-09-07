@@ -1,0 +1,7 @@
+src/build/Unciv.jar
+*.deb
+*.rpm
+*.msi
+*.exe
+*.zip
+*.tar.gz
