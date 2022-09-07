@@ -10,5 +10,9 @@ enterprise, and a very simple one at that. It uses jpackage to bundle Unciv,
 set defaults that work with I2P for the jpackaged JVM, then generates platform
 specific packages out of the result.
 
+Unciv is a really cool `Civilization V` reproduction with new assets which is
+Free Software. I highly encourage you to check them out and support them in
+any way you can.
+
 There is virtually no work involved on my part and I deserve absolutely no credit.
 But it is kind of fun. :)
