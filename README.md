@@ -18,6 +18,10 @@ There is virtually no work involved on my part and I deserve absolutely no credi
 But it is kind of fun. :) If you're interested in how I did it, visit [OneSimpleTrick](ONESIMPLETRICK.html)
 for a tutorial.
 
+This is a demo created from an application I believe to be basically harmless and
+low-risk. It does not add any sophisticated key or identity management to Unciv. It
+simply configures it to use a proxy and connect to hidden servers.
+
 Building Packages
 -----------------
 
