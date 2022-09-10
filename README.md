@@ -15,7 +15,8 @@ Free Software. I highly encourage you to check them out and support them in
 any way you can.
 
 There is virtually no work involved on my part and I deserve absolutely no credit.
-But it is kind of fun. :)
+But it is kind of fun. :) If you're interested in how I did it, visit [OneSimpleTrick](ONESIMPLETRICK.html)
+for a tutorial.
 
 Building Packages
 -----------------
