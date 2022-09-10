@@ -3,8 +3,8 @@
 Are you the developer of a Java application? Do you want to enable the users of your application to
 communicate anonymously? Have I got news for you!
 
-OK I can't keep up this clickbait bit anymore. "They(in the title)" probably aren't aware of this at all
-and probably wouldn't care much if they were. Nobody never going to make money off of Unciv players.
+OK I can't keep up this clickbait bit anymore. Surveillance advertisers probably aren't aware of this at all
+and probably wouldn't care much if they were. Nobody was never going to make money off of Unciv players.
 However, Unciv makes a neat example of how Java applications can easily be packaged for I2P without
 requiring any code on the part of the packager. All it requires is that you are using the **`jpackage`**
 packaging tool to generate a package bundled with a JVM.
