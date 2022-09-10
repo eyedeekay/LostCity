@@ -31,6 +31,7 @@ Or, if you want to use different proxies for `HTTP`, `HTTPS`, and "everything no
 you can set each one differently.
 
 ```sh
+
     -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=4444 \
     -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=4445 \
     -DsocksProxyHost=127.0.0.1 -DsocksProxyPort=4447
